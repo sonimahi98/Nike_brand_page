@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --red: #d01c28;
+    --gray:#2e2e2e;
+}
+body {
+font-family: poppins, sans-serif;
+}
+
+button{
+    height:32px;
+    width:60px;
+    font-weight: bold;
+    background: var(--red);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 1rem 0 1rem;
+    height: 72px;
+   
+}
+
+.logo-img img{
+    height: 2rem;
+    width: 5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh-72px);
+
+}
+.body h1{
+font-weight:800;
+line-height: 102px;
+font-size: 80px;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+    
+.body p{
+    font-weight: 600;
+    color: var(--gray);
+    max-width: 400px;
+}
+
+.body-button{
+    display: flex;
+    gap:30px;
+}
+
+.secondary-btn{
+ background: transparent;
+ color: var(--gray);
+ border:2px solid black;
+}
+
+.brand-icons img{
+ height:2rem;
+ width: 2rem;
+}
+
+.body-img img{
+    height: 30rem;
+    width:40rem;
+}
+
+.shopping p{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.brand-icons{
+    display: flex;
+    gap:16px;
+}
