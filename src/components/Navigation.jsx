@@ -5,7 +5,7 @@ return(
         <img src="../images/Nike-Logo.png" alt="Nike-logo"></img>
     </div>
     <ul>
-         <li href="">Menu</li>
+        <li href="">Menu</li>
         <li href="">Location</li>
         <li href="">About</li>
         <li href="">Contact</li>
